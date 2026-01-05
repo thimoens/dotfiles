@@ -1,0 +1,66 @@
+
+zsh/.secrets
+.ssh
+**/.claude
+
+
+#hypr
+hypr/.config/hypr/sspaeti/.bg_mode_state
+hypr/.config/hypr/sspaeti/.current_personal_image
+# file image search
+hypr/.config/hypr/sspaeti/image-browser/.image_ocr_index.txt
+
+# Secrets and sensitive files
+zsh/.secrets
+**/secrets
+**/.secrets
+**/.secret.*
+**/*.secret
+**/*.key
+.env.local
+zsh/.dotfiles/mutt/.lists
+
+#obsidian
+obsidian/Simon/SecondBrain/.obsidian/workspace
+obsidian/Simon/SecondBrain/.obsidian/workspace.json
+obsidian/Simon/SecondBrain/.obsidian/workspaces.json
+obsidian/Simon/SecondBrain/.obsidian/app.json
+obsidian/Simon/SecondBrain/.obsidian/plugins
+obsidian/Simon/SecondBrain/.obsidian/themes
+
+# kanata
+kanata/.config/kanata/kanata.kbd
+
+
+# mutt and email
+mutt/.config/mutt/get_hey_emails/approved_emails.txt
+mutt/.config/mutt/get_hey_emails/denied_emails.txt
+mutt/.config/mutt/logs
+mutt/.config/mutt/feed.txt
+mutt/.config/mutt/papertrail.txt
+mutt/.config/mutt/screened_in.txt
+mutt/.config/mutt/screened_out.txt
+#msmtp
+msmtp/.msmtprc
+
+#tmux
+tmux/.tmux/tmux-client-*.log
+# tmux/.tmux/plugins/
+
+#clipse
+clipse/.config/clipse/tmp_files/
+clipse/.config/clipse/clipboard_history.json
+clipse/.config/clipse/clipse.log
+
+#OBS
+OBS/.config/obs-studio/logs/
+OBS/.config/obs-studio/profiler_data/
+
+w3m/.config/w3m/cookie
+
+#newsboat
+newsboat/.config/newsboat/urls
+
+#arch
+arch-orphans.txt
+arch-package-analysis.txt
