@@ -9,6 +9,7 @@ In deze repository vind je al mijn dotfiles die ik gebruik tijdens het werken. Z
 4. Multiplexer: Tmux
 5. Terminal:  Ghostty (thuis) en Windows Powershell (werk)
 6. Browser: Brave
+7. SSH: KiTTY (windows)
 
 
 ### TODO
