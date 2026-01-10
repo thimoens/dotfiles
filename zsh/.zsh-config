@@ -1,0 +1,48 @@
+# -*- mode: sh; -*-
+export EDITOR='env TERM=xterm-16color emacs -nw'
+
+# Phabricator
+export PHABRICATORPATH=~/Code/phabricator
+export PATH=$PATH:$PHABRICATORPATH/arcanist/bin
+
+# GoLang
+export GOPATH=~/Code/go
+export GOROOT=`brew --prefix`/go
+export PATH=$PATH:$GOPATH/bin
+
+# Homebrew, etc.
+export PATH=/usr/local/bin:$PATH
+export PATH=~/Code/bin/bin:$PATH
+
+# Rust, etc.
+
+# Cuda
+export PATH=/Developer/NVIDIA/CUDA-5.5/bin:$PATH
+export DYLD_LIBRARY_PATH=/Developer/NVIDIA/CUDA-5.5/lib:$DYLD_LIBRARY_PATH
+
+# Haskell
+export PATH=~/.cabal/bin:$PATH
+
+# General
+export PATH=~/bin:$PATH
+
+# RVM
+export PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+export PATH="$PATH":~/Code/chromium/depot_tools
+source virtualenvwrapper.sh
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+
+# Racket
+export PATH=$PATH:/Applications/Racket\ v6.0/bin
+
+# Julia
+export PATH=/Applications/Julia-0.3.0-prerelease-f6296a6533.app/Contents/Resources/julia/bin:$PATH
+
+# https://github.com/JuliaLang/Homebrew.jl/issues/35
+export LD_LIBRARY_PATH=/usr/local/lib:/usr/local/opt/cairo/lib:/usr/local/opt/gettext/lib/
+
+# CUDA
+export PATH=$PATH:/usr/local/cuda/bin/
+
+export PATH="/Users/moens/.cask/bin:$PATH"
+# export PATH="/Users/moens/anaconda/bin:$PATH"

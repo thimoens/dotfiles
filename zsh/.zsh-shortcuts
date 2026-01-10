@@ -1,0 +1,38 @@
+
+# -*- mode: sh; -*-
+# Source global definitions
+if [ -f /etc/zshrc ]; then
+	. /etc/zshrc
+fi
+
+# Personal
+alias vrc='vim ~/.vimrc'
+alias st='git status'
+alias br='git branch'
+alias gri='git rebase -i'
+alias gdn='git diff HEAD~ --name-only'
+alias gaa='git add . && git commit --amend -C HEAD'
+
+alias egdn='emacs `gdn | grep -v __init__`'
+alias ls='ls --color=auto'
+alias grep='grep --colour=auto'
+alias gl='git lg'
+alias git='noglob git'
+
+# Emacs
+alias emacs='env TERM=xterm-16color emacs -nw'
+alias e='emacsclient'
+alias gfr='git fetch && git rebase origin/master'
+alias gft='git fetch && git rebase trunk'
+alias tma='tmux attach -d -t'
+
+export LC_ALL=en_US.utf-8
+export LANG="$LC_ALL"
+
+alias xelatexmk='latexmk -pvc -pdf -xelatex'
+
+# Colourised cat
+alias ccat='pygmentize -g'
+
+# Lua
+alias luarep='rlwrap th'
